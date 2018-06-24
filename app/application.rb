@@ -4,4 +4,4 @@ class Application
     resp = Rack::Response.new 
     
     if Time.now > 12:00:00
-      resp.
+      resp.write 
