@@ -9,5 +9,8 @@ class Application
     else 
       resp.wite "Good Morning!"
     end
+    
+    resp.finish 
+    
   end
 end
