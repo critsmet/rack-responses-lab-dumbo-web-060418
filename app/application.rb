@@ -7,3 +7,5 @@ class Application
       resp.write "Good Afternoon!"
     else 
       resp.wite "Good Morning!"
+    end
+  end
